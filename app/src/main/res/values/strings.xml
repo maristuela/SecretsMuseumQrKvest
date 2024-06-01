@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MuseumSecrets</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="ball">Балл : </string>
+    <string name="level">Уровень: </string>
+    <string name="level1">Уровень: 1</string>
+    <string name="level2">Уровень: 2</string>
+    <string name="textcontinue">Продолжить</string>
+    <string name="theend">Для перехода на следующий уровень необходимо набрать не менее 7 баллов</string>
+    <string name="startend">Заново</string>
+</resources>

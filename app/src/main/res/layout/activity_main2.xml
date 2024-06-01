@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_backgroud" />
+
+    <ImageView
+        android:id="@+id/main_img_museum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="200dp"
+
+        android:src="@drawable/main_img_museum" />
+
+
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <Button
+            android:id="@+id/buttonQR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_main_press_white"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text="Квест"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_stroke_main_press_white"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:text=" Игра "
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</RelativeLayout>

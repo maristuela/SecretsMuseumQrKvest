@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="levelone">Определите, является ли следующее утверждение истинным или ложным</string>
+    <string name="levelone_question_one">Дворец построен в «староанглийском» стиле</string>
+    <string name="levelone_question_two"> Дворец был отреставрирован в 1950-х годах. </string>
+    <string name="levelone_question_three">Дворец был построен по проекту архитектора Растрелли. </string>
+    <string name="levelone_question_four">После революции во дворце располагался Дом офицеров.</string>
+    <string name="levelone_question_five">Во дворце проходят выставки современного искусства. </string>
+    <string name="levelone_question_six">Дворец называют "Воронежским Версалем"</string>
+    <string name="levelone_question_seven">Во дворце снимались сцены фильма "Война и мир"</string>
+    <string name="levelone_question_eight">Дворец был построен в XVIII веке.</string>
+    <string name="levelone_question_nine">Во дворце есть выставка, посвященная истории рода Ольденбургских.</string>
+    <string name="levelone_question_ten">Дворец является памятником архитектуры федерального значения.</string>
+    <string name="levelone_interesting_fact">Интересный факт: Дворец является одним из главных символов Воронежа.</string>
+
+
+    <string name="leveltwo">Выберите из 4 вариантов ответа верный</string>
+
+    <string name="leveltwo_question_one">В каком году был построен замок Ольденбургских?</string>
+    <string name="leveltwo_ansverone_one">1887</string>
+    <string name="leveltwo_ansverone_two">1883</string>
+    <string name="leveltwo_ansverone_three">1885</string>
+    <string name="leveltwo_ansverone_four">1888</string>
+
+    <string name="leveltwo_question_two">Как звали основателя этого замка?</string>
+    <string name="leveltwo_ansvertwo_one"> Христофор Нейслер</string>
+    <string name="leveltwo_ansvertwo_two">Майкл Кентский</string>
+    <string name="leveltwo_ansvertwo_three">Евгения Лейхтенбергская</string>
+    <string name="leveltwo_ansvertwo_four">Константин Ольденбургский</string>
+
+    <string name="leveltwo_question_three">Сколько людей проживало в замке?</string>
+    <string name="leveltwo_ansverthree_one">186</string>
+    <string name="leveltwo_ansverthree_two">27</string>
+    <string name="leveltwo_ansverthree_three">53</string>
+    <string name="leveltwo_ansverthree_four">неизвестно</string>
+
+    <string name="leveltwo_question_four">Сколько лет строился дворец Ольденбургских?</string>
+    <string name="leveltwo_ansverfour_one">4</string>
+    <string name="leveltwo_ansverfour_two">7</string>
+    <string name="leveltwo_ansverfour_three">20</string>
+    <string name="leveltwo_ansverfour_four">15</string>
+
+    <string name="leveltwo_question_five">Какое учреждение размещалось во дворце после революции?</string>
+    <string name="leveltwo_ansverfive_one">Дом пионеров</string>
+    <string name="leveltwo_ansverfive_two">Дом офицеров</string>
+    <string name="leveltwo_ansverfive_three">Музей</string>
+    <string name="leveltwo_ansverfive_four">Библиотека</string>
+
+    <string name="leveltwo_question_six">Кто был архитектором дворца?</string>
+    <string name="leveltwo_ansversix_one">Растрелли</string>
+    <string name="leveltwo_ansversix_two">Шедель</string>
+    <string name="leveltwo_ansversix_three">Казаков</string>
+    <string name="leveltwo_ansversix_four">Росси</string>
+
+    <string name="leveltwo_question_seven">Чем занималась принцесса Ольденбургских на досуге?</string>
+    <string name="leveltwo_ansverseven_one">Рыбалкой</string>
+    <string name="leveltwo_ansverseven_two">Вязание</string>
+    <string name="leveltwo_ansverseven_three">Живопись</string>
+    <string name="leveltwo_ansverseven_four">Охотой</string>
+
+    <string name="leveltwo_question_eight">А какой талант был у принцессы?</string>
+    <string name="leveltwo_ansvereight_one">Изобретения</string>
+    <string name="leveltwo_ansvereight_two">Пирография</string>
+    <string name="leveltwo_ansvereight_three">Механика</string>
+    <string name="leveltwo_ansvereight_four">Кулинария</string>
+
+    <string name="leveltwo_question_nine">Какие сады были посажены?</string>
+    <string name="leveltwo_ansvernine_one">Никакие</string>
+    <string name="leveltwo_ansvernine_two">Ягодные</string>
+    <string name="leveltwo_ansvernine_three">Фруктовые и ягодные</string>
+    <string name="leveltwo_ansvernine_four">Фруктовые</string>
+
+    <string name="leveltwo_question_ten">Сколько сейчас лет замку?</string>
+    <string name="leveltwo_ansverten_one">140</string>
+    <string name="leveltwo_ansverten_two">80</string>
+    <string name="leveltwo_ansverten_three">141</string>
+    <string name="leveltwo_ansverten_four">135</string>
+
+</resources>
