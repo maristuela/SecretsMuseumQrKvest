@@ -129,22 +129,7 @@ public class Level1 extends AppCompatActivity {
             }
         });
 
-        // кнопка продолжить
-        Button btncontinue2 = (Button) dialogend.findViewById(R.id.btncontinue);
-        btncontinue2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    Intent intent = new Intent(Level1.this, Level2.class);
-                    startActivity(intent);
-                    finish();
-                }
-                catch (Exception ex){
 
-                }
-                dialog.dismiss();
-            }
-        });
 
         //_____________________________________________________________________
 
@@ -231,12 +216,43 @@ public class Level1 extends AppCompatActivity {
                                 editor.putInt("Level1", 2);
                                 editor.commit();
                             }
+                            Button btncontinue2 = (Button) dialogend.findViewById(R.id.btncontinue);
+                            // кнопка продолжить
+                            btncontinue2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    try {
+                                        Intent intent = new Intent(Level1.this, Level2.class);
+                                        startActivity(intent);
+                                        finish();
+                                    }
+                                    catch (Exception ex){
+
+                                    }
+                                    dialogend.dismiss();
+                                }
+                            });
                         }
                         else{
                             TextView textView = (TextView) dialogend.findViewById(R.id.textdescription);
                             textView.setText(R.string.theend);
-                            Button btn = dialogend.findViewById(R.id.btncontinue);
-                            btn.setText(R.string.startend);
+                            Button btncontinue2 = (Button) dialogend.findViewById(R.id.btncontinue);
+                            btncontinue2.setText(R.string.startend);
+                            // кнопка продолжить
+                            btncontinue2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    try {
+                                        Intent intent = new Intent(Level1.this, Level1.class);
+                                        startActivity(intent);
+                                        finish();
+                                    }
+                                    catch (Exception ex){
+
+                                    }
+                                    dialogend.dismiss();
+                                }
+                            });
                         }
 
 
@@ -303,12 +319,44 @@ public class Level1 extends AppCompatActivity {
                                 editor.putInt("Level1", 2);
                                 editor.commit();
                             }
+                            // кнопка продолжить
+                            Button btncontinue2 = (Button) dialogend.findViewById(R.id.btncontinue);
+                            btncontinue2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    try {
+                                        Intent intent = new Intent(Level1.this, Level2.class);
+                                        startActivity(intent);
+                                        finish();
+                                    }
+                                    catch (Exception ex){
+
+                                    }
+                                    dialogend.dismiss();
+                                }
+                            });
                         }
                         else{
                             TextView textView = (TextView) dialogend.findViewById(R.id.textdescription);
                             textView.setText(R.string.theend);
                             Button btn = dialogend.findViewById(R.id.btncontinue);
                             btn.setText(R.string.startend);
+                            // кнопка продолжить
+                            Button btncontinue2 = (Button) dialogend.findViewById(R.id.btncontinue);
+                            btncontinue2.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View view) {
+                                    try {
+                                        Intent intent = new Intent(Level1.this, Level1.class);
+                                        startActivity(intent);
+                                        finish();
+                                    }
+                                    catch (Exception ex){
+
+                                    }
+                                    dialogend.dismiss();
+                                }
+                            });
                         }
 
 

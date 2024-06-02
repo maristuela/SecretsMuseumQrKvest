@@ -69,7 +69,7 @@ public class GameLevels extends AppCompatActivity {
             public void onClick(View view) {
                 try{
                     // создаём намеренье
-                    Intent intent = new Intent(GameLevels.this, MainActivity.class);
+                    Intent intent = new Intent(GameLevels.this, MainActivity2.class);
                     startActivity(intent);
                     //закрываем старую активность
                     finish();
